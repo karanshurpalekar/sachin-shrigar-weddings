@@ -68,7 +68,7 @@ export const Route = createFileRoute("/stories/$slug")({
 });
 
 function StoryPage() {
-  const { story: s } = Route.useLoaderData();
+  const { story: s } = Route.useLoaderData() as { story: WeddingStory };
 
   return (
     <article>
