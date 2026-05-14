@@ -15,6 +15,7 @@ import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as ServicesRouteImport } from './routes/services'
 import { Route as LocationsRouteImport } from './routes/locations'
 import { Route as GalleryRouteImport } from './routes/gallery'
+import { Route as FaqRouteImport } from './routes/faq'
 import { Route as DestinationWeddingsRouteImport } from './routes/destination-weddings'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as BlogRouteImport } from './routes/blog'
@@ -51,6 +52,11 @@ const LocationsRoute = LocationsRouteImport.update({
 const GalleryRoute = GalleryRouteImport.update({
   id: '/gallery',
   path: '/gallery',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const FaqRoute = FaqRouteImport.update({
+  id: '/faq',
+  path: '/faq',
   getParentRoute: () => rootRouteImport,
 } as any)
 const DestinationWeddingsRoute = DestinationWeddingsRouteImport.update({
@@ -95,6 +101,7 @@ export interface FileRoutesByFullPath {
   '/blog': typeof BlogRoute
   '/contact': typeof ContactRoute
   '/destination-weddings': typeof DestinationWeddingsRoute
+  '/faq': typeof FaqRoute
   '/gallery': typeof GalleryRoute
   '/locations': typeof LocationsRouteWithChildren
   '/services': typeof ServicesRoute
@@ -110,6 +117,7 @@ export interface FileRoutesByTo {
   '/blog': typeof BlogRoute
   '/contact': typeof ContactRoute
   '/destination-weddings': typeof DestinationWeddingsRoute
+  '/faq': typeof FaqRoute
   '/gallery': typeof GalleryRoute
   '/locations': typeof LocationsRouteWithChildren
   '/services': typeof ServicesRoute
@@ -126,6 +134,7 @@ export interface FileRoutesById {
   '/blog': typeof BlogRoute
   '/contact': typeof ContactRoute
   '/destination-weddings': typeof DestinationWeddingsRoute
+  '/faq': typeof FaqRoute
   '/gallery': typeof GalleryRoute
   '/locations': typeof LocationsRouteWithChildren
   '/services': typeof ServicesRoute
@@ -143,6 +152,7 @@ export interface FileRouteTypes {
     | '/blog'
     | '/contact'
     | '/destination-weddings'
+    | '/faq'
     | '/gallery'
     | '/locations'
     | '/services'
@@ -158,6 +168,7 @@ export interface FileRouteTypes {
     | '/blog'
     | '/contact'
     | '/destination-weddings'
+    | '/faq'
     | '/gallery'
     | '/locations'
     | '/services'
@@ -173,6 +184,7 @@ export interface FileRouteTypes {
     | '/blog'
     | '/contact'
     | '/destination-weddings'
+    | '/faq'
     | '/gallery'
     | '/locations'
     | '/services'
@@ -189,6 +201,7 @@ export interface RootRouteChildren {
   BlogRoute: typeof BlogRoute
   ContactRoute: typeof ContactRoute
   DestinationWeddingsRoute: typeof DestinationWeddingsRoute
+  FaqRoute: typeof FaqRoute
   GalleryRoute: typeof GalleryRoute
   LocationsRoute: typeof LocationsRouteWithChildren
   ServicesRoute: typeof ServicesRoute
@@ -239,6 +252,13 @@ declare module '@tanstack/react-router' {
       path: '/gallery'
       fullPath: '/gallery'
       preLoaderRoute: typeof GalleryRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/faq': {
+      id: '/faq'
+      path: '/faq'
+      fullPath: '/faq'
+      preLoaderRoute: typeof FaqRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/destination-weddings': {
@@ -322,6 +342,7 @@ const rootRouteChildren: RootRouteChildren = {
   BlogRoute: BlogRoute,
   ContactRoute: ContactRoute,
   DestinationWeddingsRoute: DestinationWeddingsRoute,
+  FaqRoute: FaqRoute,
   GalleryRoute: GalleryRoute,
   LocationsRoute: LocationsRouteWithChildren,
   ServicesRoute: ServicesRoute,
@@ -332,3 +353,13 @@ const rootRouteChildren: RootRouteChildren = {
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
+
+import type { getRouter } from './router.tsx'
+import type { startInstance } from './start.ts'
+declare module '@tanstack/react-start' {
+  interface Register {
+    ssr: true
+    router: Awaited<ReturnType<typeof getRouter>>
+    config: Awaited<ReturnType<typeof startInstance.getOptions>>
+  }
+}
