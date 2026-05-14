@@ -2,9 +2,11 @@ import { Link } from "@tanstack/react-router";
 import { useState } from "react";
 
 const links = [
-  { to: "/about", label: "The Studio" },
+  { to: "/about", label: "Studio" },
   { to: "/services", label: "Services" },
+  { to: "/stories", label: "Stories" },
   { to: "/gallery", label: "Gallery" },
+  { to: "/locations", label: "Locations" },
   { to: "/destination-weddings", label: "Destinations" },
   { to: "/testimonials", label: "Voices" },
   { to: "/blog", label: "Journal" },
