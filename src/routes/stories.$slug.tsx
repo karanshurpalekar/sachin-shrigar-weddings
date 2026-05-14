@@ -1,5 +1,5 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
-import { findStory, stories } from "@/lib/content";
+import { findStory, stories, type WeddingStory } from "@/lib/content";
 import {
   breadcrumbLd,
   imageObjectLd,
