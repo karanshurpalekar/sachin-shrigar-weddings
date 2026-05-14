@@ -1,0 +1,18 @@
+# Decor by Sachin Shrigar
+
+> Luxury wedding planning and decor studio based in Mangalore and Bangalore, India. End-to-end planning, bespoke decor, destination weddings, and traditional South Indian celebrations.
+
+Decor by Sachin Shrigar is a small, deliberately limited atelier led by founder and creative director Sachin Shrigar. The studio composes a handful of weddings each season across coastal Karnataka, Bangalore, and select destination venues. Disciplines include florals, lighting, fabrication, and styling — all in-house.
+
+## Pages
+- [Home](/): Studio overview, signature services, featured weddings.
+- [About](/about): Founder, philosophy, and the atelier model.
+- [Services](/services): End-to-end planning, luxury decor, destination weddings, South Indian traditions, contemporary premium weddings, custom event styling.
+- [Gallery](/gallery): Curated portfolio of past weddings.
+- [Destination Weddings](/destination-weddings): Coastal Mangalore, Chikmagalur plantations, heritage properties.
+- [Testimonials](/testimonials): Words from past clients.
+- [Journal](/blog): Essays and notes on wedding craft, ritual, and design.
+- [Contact](/contact): Inquiries, ateliers, and consultation booking.
+
+## Optional
+- [Sitemap](/sitemap.xml)
