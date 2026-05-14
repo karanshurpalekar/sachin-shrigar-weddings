@@ -1,9 +1,28 @@
 import { createFileRoute } from "@tanstack/react-router";
 import type {} from "@tanstack/react-start";
+import { stories, locations } from "@/lib/content";
 
 const BASE_URL = "";
 
-const paths = ["/", "/about", "/services", "/gallery", "/destination-weddings", "/testimonials", "/blog", "/contact"];
+const staticPaths = [
+  "/",
+  "/about",
+  "/services",
+  "/stories",
+  "/gallery",
+  "/locations",
+  "/destination-weddings",
+  "/testimonials",
+  "/blog",
+  "/faq",
+  "/contact",
+];
+
+const paths = [
+  ...staticPaths,
+  ...stories.map((s) => `/stories/${s.slug}`),
+  ...locations.map((l) => `/locations/${l.slug}`),
+];
 
 export const Route = createFileRoute("/sitemap.xml")({
   server: {
