@@ -121,3 +121,95 @@
 .animate-ken-burns {
   animation: ken-burns 18s cubic-bezier(0.32, 0.72, 0, 1) infinite alternate;
 }
+
+/* ----------------------------------------------------------------
+   Image framing — soft, warm, gallery-grade frame on every figure
+   ---------------------------------------------------------------- */
+@layer base {
+  main figure,
+  main .bg-beige {
+    border-radius: 2px;
+    box-shadow:
+      0 1px 0 oklch(1 0 0 / 0.55) inset,
+      0 0 0 1px oklch(0.55 0.04 70 / 0.10),
+      0 30px 60px -28px oklch(0.18 0.02 60 / 0.22),
+      0 8px 18px -10px oklch(0.18 0.02 60 / 0.12);
+    position: relative;
+  }
+  /* subtle gold inner hairline — the "frame" */
+  main figure::after,
+  main .bg-beige::after {
+    content: "";
+    position: absolute;
+    inset: 6px;
+    border: 1px solid oklch(0.72 0.07 75 / 0.18);
+    pointer-events: none;
+    z-index: 2;
+    border-radius: 1px;
+  }
+  main figure > img,
+  main .bg-beige > img {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+/* ----------------------------------------------------------------
+   Scroll-driven image reveal (modern CSS — graceful fallback)
+   The current web trend: images "unmask" as they enter the viewport.
+   ---------------------------------------------------------------- */
+@keyframes img-unmask {
+  from {
+    clip-path: inset(12% 6% 12% 6% round 1px);
+    opacity: 0;
+    transform: scale(1.08);
+    filter: saturate(0.85);
+  }
+  to {
+    clip-path: inset(0% 0% 0% 0% round 1px);
+    opacity: 1;
+    transform: scale(1);
+    filter: saturate(1);
+  }
+}
+
+@supports (animation-timeline: view()) {
+  main figure > img,
+  main .bg-beige > img {
+    animation: img-unmask linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 35%;
+  }
+}
+
+/* Fallback for browsers without scroll-driven animations:
+   fade + unmask once when the parent .reveal becomes visible. */
+@supports not (animation-timeline: view()) {
+  .reveal img {
+    clip-path: inset(10% 5% 10% 5% round 1px);
+    opacity: 0;
+    transform: scale(1.06);
+    transition:
+      clip-path 1.4s cubic-bezier(0.65, 0, 0.35, 1),
+      opacity 1.2s ease-out,
+      transform 1.6s cubic-bezier(0.32, 0.72, 0, 1);
+  }
+  .reveal.is-visible img {
+    clip-path: inset(0% 0% 0% 0% round 1px);
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  main figure > img,
+  main .bg-beige > img,
+  .reveal img {
+    animation: none !important;
+    clip-path: none !important;
+    transform: none !important;
+    opacity: 1 !important;
+    filter: none !important;
+  }
+}
+
