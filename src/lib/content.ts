@@ -44,11 +44,11 @@ export const stories: WeddingStory[] = [
     city: "Mangalore",
     venue: "Private seafront estate, Ullal",
     date: "2024-02-14",
-    couple: "Ahalya & Vikram",
+    couple: "Anagha & Sushanth",
     guests: 380,
     palette: "Ivory · brass · deep coral",
-    hero: weddingHeritage,
-    alt: "Brass mandap with marigold garlands and ivory drapery against the Arabian Sea at a luxury Mangalore wedding",
+    hero: storyAnaghaSushanth,
+    alt: "Anagha and Sushanth make a sparkler-lit reception entrance at their luxury Mangalore wedding designed by Sachin Shrigar",
     excerpt:
       "A three-day Tulu-Brahmin celebration on the Arabian Sea — temple bronzes, hand-strung jasmine, and a mandap of antique brass.",
     intro:
@@ -81,11 +81,11 @@ export const stories: WeddingStory[] = [
     city: "Udupi",
     venue: "Sri Krishna Matha precinct (private courtyard)",
     date: "2024-04-22",
-    couple: "Sanya & Kabir",
+    couple: "Anjali & Abhisekh",
     guests: 220,
     palette: "Saffron · vermillion · gold",
-    hero: weddingCoastal,
-    alt: "Marigold archway and oil lamps lining a temple courtyard for a traditional Udupi wedding",
+    hero: storyAnjaliAbhisekh,
+    alt: "Anjali and Abhisekh showered in rose petals during their traditional Udupi temple-tradition wedding ceremony",
     excerpt:
       "A Madhva-tradition wedding inside a private courtyard of the Sri Krishna Matha — chanting at dawn, banana-leaf feast at noon.",
     intro:
@@ -118,11 +118,11 @@ export const stories: WeddingStory[] = [
     city: "Bangalore",
     venue: "The Leela Palace, Bangalore",
     date: "2024-08-11",
-    couple: "Meera & Rohan",
+    couple: "Sonia & Uday",
     guests: 160,
     palette: "Ivory · pale taupe · bone",
-    hero: weddingModern,
-    alt: "Candle-lit ivory tablescape with pampas grass and bone china at a minimalist Bangalore reception",
+    hero: storySoniaUday,
+    alt: "Sonia in an ivory silk sari beside Uday in a black bandhgala at their pared-back contemporary wedding",
     excerpt:
       "A pared-back contemporary wedding for a tech-founder couple — long ivory tables, taper candles, no flowers but pampas.",
     intro:
@@ -184,11 +184,11 @@ export const stories: WeddingStory[] = [
     city: "Chikmagalur",
     venue: "Private coffee estate, Mudigere",
     date: "2023-10-19",
-    couple: "Anaya & Aditya",
+    couple: "Sandra & Canute",
     guests: 140,
     palette: "Moss · bronze · burgundy",
-    hero: tablescape,
-    alt: "Long banquet table set among coffee trees with bronze candelabras for a Chikmagalur plantation wedding",
+    hero: storySandraCanute,
+    alt: "Sandra and Canute share a quiet moment on the lawn at their intimate Christian estate wedding designed by Sachin Shrigar",
     excerpt:
       "Forty-eight hours among coffee trees and mist — a barefoot ceremony at dawn, a long-table dinner under string lights.",
     intro:
@@ -217,11 +217,11 @@ export const stories: WeddingStory[] = [
     city: "Goa",
     venue: "Private villa, Aldona",
     date: "2024-01-27",
-    couple: "Tara & Ishaan",
+    couple: "Anshprabhu & Srinivas",
     guests: 240,
     palette: "Cobalt · whitewash · terracotta",
-    hero: insta1,
-    alt: "Whitewashed Portuguese villa courtyard with cobalt blue lanterns and terracotta tiles for a Goa destination wedding",
+    hero: storyAnshprabhuSrinivas,
+    alt: "Anshprabhu and Srinivas at their floral arch reception, a destination wedding designed by Sachin Shrigar",
     excerpt:
       "A Portuguese-Indian fusion across three Aldona villas — sangeet on the river, sundowner haldi, beach reception at low tide.",
     intro:
@@ -250,11 +250,11 @@ export const stories: WeddingStory[] = [
     city: "Bangalore",
     venue: "Bangalore Palace, Vasanth Nagar",
     date: "2024-11-09",
-    couple: "Riya & Karan",
+    couple: "Trupthi & Vipin",
     guests: 620,
     palette: "Emerald · gold · obsidian",
-    hero: insta3,
-    alt: "Contemporary chandelier installation and emerald-and-gold florals at a Bangalore Palace wedding reception",
+    hero: storyTrupthiVipin,
+    alt: "Trupthi in a coral-and-gold lehenga twirls beside a glowing candle-grid backdrop at her Bangalore Palace reception",
     excerpt:
       "Six hundred guests in the gothic halls of Bangalore Palace — a custom suspended chandelier, emerald orchids, a champagne tower lit from within.",
     intro:
