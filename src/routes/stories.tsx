@@ -38,7 +38,7 @@ function StoriesIndex() {
               params={{ slug: s.slug }}
               className="group block"
             >
-              <figure className="aspect-[5/6] overflow-hidden bg-beige mb-5">
+              <figure className="aspect-[3/4] overflow-hidden bg-beige mb-5">
                 <img
                   src={s.hero}
                   alt={s.alt}
