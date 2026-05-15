@@ -150,22 +150,22 @@ function Index() {
               All services
             </Link>
           </div>
-          <div className="grid md:grid-cols-2 gap-x-8 gap-y-16">
-            {services.map((s, i) => (
-              <Reveal key={s.title} className={i % 2 === 1 ? "md:mt-20" : ""}>
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-12">
+            {services.map((s) => (
+              <Reveal key={s.title}>
                 <article>
-                  <div className="overflow-hidden bg-beige aspect-[3/4] mb-6">
+                  <div className="overflow-hidden bg-beige aspect-[4/5] mb-5">
                     <img
                       src={s.img}
                       alt={s.title}
-                      width={1200}
-                      height={1500}
+                      width={800}
+                      height={1000}
                       loading="lazy"
                       className="w-full h-full object-cover transition-transform duration-[1400ms] hover:scale-105"
                     />
                   </div>
-                  <p className="text-[10px] uppercase tracking-[0.3em] text-ink/40 mb-3">{s.tag}</p>
-                  <h3 className="font-serif text-3xl mb-3">{s.title}</h3>
+                  <p className="text-[10px] uppercase tracking-[0.3em] text-ink/40 mb-2">{s.tag}</p>
+                  <h3 className="font-serif text-xl md:text-2xl mb-2">{s.title}</h3>
                   <p className="text-sm text-ink/70 max-w-md text-pretty leading-relaxed">{s.body}</p>
                 </article>
               </Reveal>
@@ -187,8 +187,8 @@ function Index() {
         </div>
         <div className="flex gap-6 overflow-x-auto no-scrollbar px-6 pb-4 snap-x snap-mandatory">
           {signatures.map((w) => (
-            <article key={w.name} className="snap-start flex-none w-[68vw] sm:w-[300px]">
-              <div className="aspect-[3/4] overflow-hidden bg-beige mb-5">
+            <article key={w.name} className="snap-start flex-none w-[55vw] sm:w-[240px]">
+              <div className="aspect-[4/5] overflow-hidden bg-beige mb-4">
                 <img
                   src={w.img}
                   alt={`${w.name} — ${w.title}`}
