@@ -3,6 +3,7 @@ import { Reveal } from "@/components/site/Reveal";
 import heroMandap from "@/assets/hero-mandap.jpg";
 import decorDetail from "@/assets/decor-detail.jpg";
 import tablescape from "@/assets/tablescape.jpg";
+import philosophyLamps from "@/assets/philosophy-lamps.jpg";
 import weddingHeritage from "@/assets/wedding-heritage.jpg";
 import weddingModern from "@/assets/wedding-modern.jpg";
 import weddingCoastal from "@/assets/wedding-coastal.jpg";
