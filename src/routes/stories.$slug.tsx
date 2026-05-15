@@ -136,7 +136,7 @@ function StoryPage() {
                   params={{ slug: o.slug }}
                   className="group block"
                 >
-                  <figure className="aspect-[4/5] overflow-hidden bg-beige mb-4">
+                  <figure className="aspect-[3/4] overflow-hidden bg-beige mb-4">
                     <img
                       src={o.hero}
                       alt={o.alt}
