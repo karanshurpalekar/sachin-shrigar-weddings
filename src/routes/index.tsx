@@ -216,7 +216,7 @@ function Index() {
             <h2 className="font-serif text-4xl md:text-5xl text-ink leading-[1.1] text-balance">
               The studio is small. The craft is total.
             </h2>
-            <figure className="mt-10 aspect-[4/5] max-w-[280px] overflow-hidden bg-beige">
+            <figure className="mt-10 aspect-[4/5] w-[160px] overflow-hidden bg-beige">
               <img
                 src={atelierHands}
                 alt="Artisan hands arranging jasmine garlands beside a brass oil lamp — the Sachin Sherigar atelier"
