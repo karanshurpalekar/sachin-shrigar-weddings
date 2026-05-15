@@ -10,6 +10,14 @@ import insta1 from "@/assets/insta-1.jpg";
 import insta2 from "@/assets/insta-2.jpg";
 import insta3 from "@/assets/insta-3.jpg";
 
+// Real client weddings from the studio archive.
+import storyAnaghaSushanth from "@/assets/story-anagha-sushanth.jpg";
+import storyAnjaliAbhisekh from "@/assets/story-anjali-abhisekh.jpg";
+import storySoniaUday from "@/assets/story-sonia-uday.jpg";
+import storySandraCanute from "@/assets/story-sandra-canute.jpg";
+import storyAnshprabhuSrinivas from "@/assets/story-anshprabhu-srinivas.jpg";
+import storyTrupthiVipin from "@/assets/story-trupthi-vipin.jpg";
+
 export type WeddingStory = {
   slug: string;
   title: string;
