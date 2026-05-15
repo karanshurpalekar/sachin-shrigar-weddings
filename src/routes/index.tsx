@@ -154,7 +154,7 @@ function Index() {
             {services.map((s, i) => (
               <Reveal key={s.title} className={i % 2 === 1 ? "md:mt-20" : ""}>
                 <article>
-                  <div className="overflow-hidden bg-beige aspect-[4/5] mb-6">
+                  <div className="overflow-hidden bg-beige aspect-[3/4] mb-6">
                     <img
                       src={s.img}
                       alt={s.title}
