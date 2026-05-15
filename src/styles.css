@@ -43,11 +43,11 @@
   --radius: 0.25rem;
 
   /* Devotional opulence palette */
-  --ivory: oklch(0.985 0.006 85);
+  --ivory: oklch(0.955 0.018 82);
   --ink: oklch(0.18 0.005 60);
-  --champagne: oklch(0.96 0.018 85);
-  --beige: oklch(0.89 0.028 80);
-  --gold: oklch(0.72 0.07 80);
+  --champagne: oklch(0.93 0.028 82);
+  --beige: oklch(0.86 0.038 78);
+  --gold: oklch(0.68 0.09 72);
 
   --background: var(--ivory);
   --foreground: var(--ink);
