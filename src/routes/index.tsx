@@ -154,7 +154,7 @@ function Index() {
             {services.map((s, i) => (
               <Reveal key={s.title} className={i % 2 === 1 ? "md:mt-20" : ""}>
                 <article>
-                  <div className="overflow-hidden bg-beige aspect-[4/5] mb-6">
+                  <div className="overflow-hidden bg-beige aspect-[3/4] mb-6">
                     <img
                       src={s.img}
                       alt={s.title}
@@ -187,8 +187,8 @@ function Index() {
         </div>
         <div className="flex gap-6 overflow-x-auto no-scrollbar px-6 pb-4 snap-x snap-mandatory">
           {signatures.map((w) => (
-            <article key={w.name} className="snap-start flex-none w-[78vw] sm:w-[420px]">
-              <div className="aspect-[4/5] overflow-hidden bg-beige mb-5">
+            <article key={w.name} className="snap-start flex-none w-[68vw] sm:w-[300px]">
+              <div className="aspect-[3/4] overflow-hidden bg-beige mb-5">
                 <img
                   src={w.img}
                   alt={`${w.name} — ${w.title}`}
