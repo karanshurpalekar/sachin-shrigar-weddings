@@ -3,6 +3,7 @@ import { Reveal } from "@/components/site/Reveal";
 import heroMandap from "@/assets/hero-mandap.jpg";
 import decorDetail from "@/assets/decor-detail.jpg";
 import tablescape from "@/assets/tablescape.jpg";
+import philosophyLamps from "@/assets/philosophy-lamps.jpg";
 import weddingHeritage from "@/assets/wedding-heritage.jpg";
 import weddingModern from "@/assets/wedding-modern.jpg";
 import weddingCoastal from "@/assets/wedding-coastal.jpg";
@@ -105,11 +106,21 @@ function Index() {
 
       {/* Brand intro */}
       <section className="py-24 md:py-36">
-        <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-12 gap-12">
-          <div className="md:col-span-4">
-            <p className="text-[10px] uppercase tracking-[0.4em] text-gold">Our Philosophy</p>
+        <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-12 gap-12 md:gap-16 items-start">
+          <div className="md:col-span-5">
+            <p className="text-[10px] uppercase tracking-[0.4em] text-gold mb-8">Our Philosophy</p>
+            <figure className="aspect-[4/5] overflow-hidden bg-beige">
+              <img
+                src={philosophyLamps}
+                alt="Brass oil lamps and jasmine petals on teakwood — a South Indian wedding ritual detail"
+                width={1024}
+                height={1280}
+                loading="lazy"
+                className="w-full h-full object-cover"
+              />
+            </figure>
           </div>
-          <div className="md:col-span-8">
+          <div className="md:col-span-7 md:pt-10">
             <Reveal>
               <h2 className="font-serif text-3xl md:text-5xl text-ink leading-[1.15] text-balance">
                 We believe in weddings that feel like a quiet prayer — intentional, deeply rooted, and exquisitely crafted.
