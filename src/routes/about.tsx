@@ -4,8 +4,8 @@ import { Reveal } from "@/components/site/Reveal";
 import founder from "@/assets/founder.jpg";
 import decorDetail from "@/assets/decor-detail.jpg";
 
-const TITLE = "About the Studio — Decor by Sachin Shrigar";
-const DESC = "Decor by Sachin Shrigar is a Mangalore- and Bangalore-based luxury wedding studio led by designer Sachin Shrigar, blending South Indian heritage with contemporary restraint.";
+const TITLE = "About the Studio — Decor by Sachin Sherigar";
+const DESC = "Decor by Sachin Sherigar is a Mangalore- and Bangalore-based luxury wedding studio led by designer Sachin Sherigar, blending South Indian heritage with contemporary restraint.";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -28,9 +28,9 @@ export const Route = createFileRoute("/about")({
           description: DESC,
           mainEntity: {
             "@type": "Person",
-            name: "Sachin Shrigar",
+            name: "Sachin Sherigar",
             jobTitle: "Founder & Creative Director",
-            worksFor: { "@type": "Organization", name: "Decor by Sachin Shrigar" },
+            worksFor: { "@type": "Organization", name: "Decor by Sachin Sherigar" },
           },
         }),
       },
@@ -45,16 +45,16 @@ function AboutPage() {
       <PageHero
         eyebrow="The Studio"
         title="A small studio. A total craft."
-        intro="Decor by Sachin Shrigar is a luxury wedding studio rooted in coastal Karnataka and practiced across India. We accept a limited number of weddings each season because composition this considered cannot be scaled."
+        intro="Decor by Sachin Sherigar is a luxury wedding studio rooted in coastal Karnataka and practiced across India. We accept a limited number of weddings each season because composition this considered cannot be scaled."
       />
 
       <section className="py-24 md:py-32">
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-12 gap-12 items-start">
           <div className="md:col-span-5 md:sticky md:top-24">
             <div className="aspect-[4/5] overflow-hidden bg-beige">
-              <img src={founder} alt="Sachin Shrigar, founder and creative director" width={1000} height={1300} loading="lazy" className="w-full h-full object-cover" />
+              <img src={founder} alt="Sachin Sherigar, founder and creative director" width={1000} height={1300} loading="lazy" className="w-full h-full object-cover" />
             </div>
-            <p className="mt-4 text-[10px] uppercase tracking-[0.3em] text-ink/50">Sachin Shrigar · Founder & Creative Director</p>
+            <p className="mt-4 text-[10px] uppercase tracking-[0.3em] text-ink/50">Sachin Sherigar · Founder & Creative Director</p>
           </div>
           <div className="md:col-span-7 space-y-12">
             <Reveal>
@@ -64,7 +64,7 @@ function AboutPage() {
             </Reveal>
             <div className="space-y-5 text-base text-ink/70 max-w-xl text-pretty leading-relaxed">
               <p>
-                Sachin Shrigar founded the studio after a decade composing decor and ceremony for India's most considered families. His training is half-architectural, half-devotional — the discipline of section drawings paired with the rituals he grew up watching in coastal temple courts.
+                Sachin Sherigar founded the studio after a decade composing decor and ceremony for India's most considered families. His training is half-architectural, half-devotional — the discipline of section drawings paired with the rituals he grew up watching in coastal temple courts.
               </p>
               <p>
                 The work moves between Mangalorean, Tulu, Konkani and Tamil traditions and the contemporary luxury of Bangalore's modern couples. The constant is restraint: every petal earns its place; every brass lamp is lit for a reason.

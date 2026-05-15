@@ -20,7 +20,7 @@ export const Route = createFileRoute("/stories/$slug")({
     const url = `/stories/${params.slug}`;
     return {
       meta: pageMeta({
-        title: `${s.title} — Decor by Sachin Shrigar`,
+        title: `${s.title} — Decor by Sachin Sherigar`,
         description: s.excerpt,
         url,
         image: s.hero,

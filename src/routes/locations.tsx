@@ -5,7 +5,7 @@ import { breadcrumbLd, pageMeta } from "@/lib/seo";
 
 const TITLE = "Wedding Planner Locations — Mangalore, Bangalore, Goa & more";
 const DESC =
-  "Decor by Sachin Shrigar plans and produces luxury weddings across Mangalore, Bangalore, Udupi, Coorg, Chikmagalur, Goa and Mysore — with on-ground production teams in each city.";
+  "Decor by Sachin Sherigar plans and produces luxury weddings across Mangalore, Bangalore, Udupi, Coorg, Chikmagalur, Goa and Mysore — with on-ground production teams in each city.";
 
 export const Route = createFileRoute("/locations")({
   head: () => ({

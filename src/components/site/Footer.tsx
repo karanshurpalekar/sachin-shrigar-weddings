@@ -7,7 +7,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-20">
           <div className="md:col-span-2">
             <p className="font-serif text-3xl leading-tight max-w-sm text-balance">
-              Decor by Sachin Shrigar
+              Decor by Sachin Sherigar
             </p>
             <p className="mt-4 text-sm text-ink/60 max-w-sm text-pretty">
               Luxury wedding planning and decor for those who seek the profound over the performative — Mangalore &amp; Bangalore.
@@ -37,7 +37,7 @@ export function Footer() {
           </div>
         </div>
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 pt-10 border-t border-ink/5">
-          <p className="text-[10px] uppercase tracking-[0.3em] text-ink/40">© {new Date().getFullYear()} Decor by Sachin Shrigar</p>
+          <p className="text-[10px] uppercase tracking-[0.3em] text-ink/40">© {new Date().getFullYear()} Decor by Sachin Sherigar</p>
           <p className="text-[10px] uppercase tracking-[0.3em] text-ink/40 italic font-serif">Artistry in every sacred vow</p>
         </div>
       </div>

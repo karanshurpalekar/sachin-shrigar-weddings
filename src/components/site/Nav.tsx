@@ -18,7 +18,7 @@ export function Nav() {
     <nav className="sticky top-0 z-50 bg-ivory/85 backdrop-blur-md border-b border-ink/5">
       <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
         <Link to="/" className="font-serif text-xl tracking-[0.2em] uppercase">
-          S. Shrigar
+          S. Sherigar
         </Link>
         <div className="hidden lg:flex gap-9 text-[11px] uppercase tracking-[0.22em] font-medium text-ink/70">
           {links.map((l) => (

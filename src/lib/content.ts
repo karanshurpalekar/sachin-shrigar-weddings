@@ -48,7 +48,7 @@ export const stories: WeddingStory[] = [
     guests: 380,
     palette: "Ivory · brass · deep coral",
     hero: storyAnaghaSushanth,
-    alt: "Anagha and Sushanth make a sparkler-lit reception entrance at their luxury Mangalore wedding designed by Sachin Shrigar",
+    alt: "Anagha and Sushanth make a sparkler-lit reception entrance at their luxury Mangalore wedding designed by Sachin Sherigar",
     excerpt:
       "A three-day Tulu-Brahmin celebration on the Arabian Sea — temple bronzes, hand-strung jasmine, and a mandap of antique brass.",
     intro:
@@ -188,7 +188,7 @@ export const stories: WeddingStory[] = [
     guests: 140,
     palette: "Moss · bronze · burgundy",
     hero: storySandraCanute,
-    alt: "Sandra and Canute share a quiet moment on the lawn at their intimate Christian estate wedding designed by Sachin Shrigar",
+    alt: "Sandra and Canute share a quiet moment on the lawn at their intimate Christian estate wedding designed by Sachin Sherigar",
     excerpt:
       "Forty-eight hours among coffee trees and mist — a barefoot ceremony at dawn, a long-table dinner under string lights.",
     intro:
@@ -221,7 +221,7 @@ export const stories: WeddingStory[] = [
     guests: 240,
     palette: "Cobalt · whitewash · terracotta",
     hero: storyAnshprabhuSrinivas,
-    alt: "Anshprabhu and Srinivas at their floral arch reception, a destination wedding designed by Sachin Shrigar",
+    alt: "Anshprabhu and Srinivas at their floral arch reception, a destination wedding designed by Sachin Sherigar",
     excerpt:
       "A Portuguese-Indian fusion across three Aldona villas — sangeet on the river, sundowner haldi, beach reception at low tide.",
     intro:

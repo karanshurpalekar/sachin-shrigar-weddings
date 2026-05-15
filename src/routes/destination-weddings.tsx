@@ -5,7 +5,7 @@ import tablescape from "@/assets/tablescape.jpg";
 import weddingHeritage from "@/assets/wedding-heritage.jpg";
 
 const TITLE = "Destination Weddings — Mangalore, Coastal Karnataka & Beyond";
-const DESC = "Destination wedding planning and decor by Sachin Shrigar — coastal Mangalore, Udupi, Chikmagalur plantations, Goa, palace properties and beyond.";
+const DESC = "Destination wedding planning and decor by Sachin Sherigar — coastal Mangalore, Udupi, Chikmagalur plantations, Goa, palace properties and beyond.";
 
 const places = [
   { name: "Coastal Mangalore & Udupi", body: "Sea-edge ceremonies, temple-town traditions, and family homes opened for once-in-a-lifetime celebrations.", img: weddingCoastal },
@@ -31,7 +31,7 @@ export const Route = createFileRoute("/destination-weddings")({
           "@context": "https://schema.org",
           "@type": "Service",
           serviceType: "Destination wedding planning and decor",
-          provider: { "@type": "Organization", name: "Decor by Sachin Shrigar" },
+          provider: { "@type": "Organization", name: "Decor by Sachin Sherigar" },
           areaServed: places.map((p) => p.name),
           description: DESC,
         }),

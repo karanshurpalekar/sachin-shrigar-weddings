@@ -2,17 +2,17 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { PageHero } from "@/components/site/PageHero";
 import { breadcrumbLd, faqLd, pageMeta } from "@/lib/seo";
 
-const TITLE = "Frequently Asked Questions — Decor by Sachin Shrigar";
+const TITLE = "Frequently Asked Questions — Decor by Sachin Sherigar";
 const DESC =
-  "Pricing, lead times, destination logistics, and what to expect when you engage Decor by Sachin Shrigar for luxury wedding planning and decor.";
+  "Pricing, lead times, destination logistics, and what to expect when you engage Decor by Sachin Sherigar for luxury wedding planning and decor.";
 
 const faqs = [
   {
-    q: "How far in advance should we book Decor by Sachin Shrigar?",
+    q: "How far in advance should we book Decor by Sachin Sherigar?",
     a: "We accept a limited number of weddings per season. Most couples engage us 9–14 months in advance for full planning, and at least 6 months out for decor-only engagements.",
   },
   {
-    q: "What is the typical investment for a Sachin Shrigar wedding?",
+    q: "What is the typical investment for a Sachin Sherigar wedding?",
     a: "Our full-planning engagements typically begin at ₹35 lakh for decor and creative direction; end-to-end weddings begin at ₹80 lakh. Every quote is bespoke to scale, venue, and number of functions.",
   },
   {

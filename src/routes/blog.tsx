@@ -6,7 +6,7 @@ import weddingCoastal from "@/assets/wedding-coastal.jpg";
 import tablescape from "@/assets/tablescape.jpg";
 
 const TITLE = "Journal — Wedding Stories & Notes from the Atelier";
-const DESC = "Essays, wedding stories and design notes from Decor by Sachin Shrigar — on luxury weddings, South Indian traditions, destination planning and the craft of decor.";
+const DESC = "Essays, wedding stories and design notes from Decor by Sachin Sherigar — on luxury weddings, South Indian traditions, destination planning and the craft of decor.";
 
 const posts = [
   { slug: "the-quiet-mandap", title: "The Quiet Mandap: restraint as the new opulence", excerpt: "Why we are designing fewer flowers, taller lamps, and longer pauses.", img: decorDetail, date: "March 2024", read: "6 min" },
@@ -38,7 +38,7 @@ export const Route = createFileRoute("/blog")({
             headline: p.title,
             description: p.excerpt,
             datePublished: p.date,
-            author: { "@type": "Person", name: "Sachin Shrigar" },
+            author: { "@type": "Person", name: "Sachin Sherigar" },
           })),
         }),
       },
