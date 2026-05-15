@@ -4,6 +4,7 @@ import heroMandap from "@/assets/hero-mandap.jpg";
 import decorDetail from "@/assets/decor-detail.jpg";
 import tablescape from "@/assets/tablescape.jpg";
 import philosophyLamps from "@/assets/philosophy-lamps.jpg";
+import atelierHands from "@/assets/atelier-hands.jpg";
 import weddingHeritage from "@/assets/wedding-heritage.jpg";
 import weddingModern from "@/assets/wedding-modern.jpg";
 import weddingCoastal from "@/assets/wedding-coastal.jpg";
