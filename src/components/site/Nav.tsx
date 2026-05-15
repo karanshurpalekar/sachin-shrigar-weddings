@@ -17,8 +17,13 @@ export function Nav() {
   return (
     <nav className="sticky top-0 z-50 bg-ivory/85 backdrop-blur-md border-b border-ink/5">
       <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-        <Link to="/" className="font-serif text-xl tracking-[0.2em] uppercase">
-          Sachin Sherigar
+        <Link to="/" className="group leading-none flex flex-col">
+          <span className="font-serif text-xl tracking-[0.2em] uppercase">
+            Sachin Sherigar
+          </span>
+          <span className="font-serif italic text-[10px] tracking-[0.18em] text-gold/90 mt-0.5 pl-[2px]">
+            decor &middot; by sachin sherigar
+          </span>
         </Link>
         <div className="hidden lg:flex gap-9 text-[11px] uppercase tracking-[0.22em] font-medium text-ink/70">
           {links.map((l) => (
