@@ -2,13 +2,13 @@ import { createFileRoute } from "@tanstack/react-router";
 import { PageHero } from "@/components/site/PageHero";
 
 const TITLE = "Testimonials — In Their Own Words";
-const DESC = "Words from the families we have served — luxury wedding testimonials for Decor by Sachin Shrigar across Mangalore, Bangalore and destination venues.";
+const DESC = "Words from the families we have served — luxury wedding testimonials for Decor by Sachin Sherigar across Mangalore, Bangalore and destination venues.";
 
 const quotes = [
   { quote: "Sachin didn't just decorate our venue; he captured the soul of our family's heritage and translated it into something modern and breathtaking.", author: "Dr. Anjali Hegde", place: "Mangalore · 2024" },
   { quote: "We told Sachin we wanted a wedding that felt like a quiet film. He gave us exactly that — every frame deliberate, every detail in the right key.", author: "Meera & Rohan", place: "Bangalore · 2024" },
   { quote: "The mandap brought my mother to tears. She said it looked like the temple she grew up beside. I will never forget that moment.", author: "Sanya & Kabir", place: "Udupi · 2023" },
-  { quote: "Three days, four ceremonies, three hundred guests across two cities — and not a single thing felt rushed. That is the Sachin Shrigar magic.", author: "The Patil Family", place: "Bangalore · 2024" },
+  { quote: "Three days, four ceremonies, three hundred guests across two cities — and not a single thing felt rushed. That is the Sachin Sherigar magic.", author: "The Patil Family", place: "Bangalore · 2024" },
   { quote: "We have attended many beautiful weddings. Sachin's was the first that felt composed rather than decorated.", author: "Karthik Rao", place: "Guest, 2023" },
   { quote: "Working with the studio felt like working with a single mind. Florals, lighting, fabric — every choice rhymed.", author: "Anaya & Aditya", place: "Chikmagalur · 2023" },
 ];
@@ -34,7 +34,7 @@ export const Route = createFileRoute("/testimonials")({
             position: i + 1,
             reviewBody: q.quote,
             author: { "@type": "Person", name: q.author },
-            itemReviewed: { "@type": "Organization", name: "Decor by Sachin Shrigar" },
+            itemReviewed: { "@type": "Organization", name: "Decor by Sachin Sherigar" },
             reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
           })),
         }),

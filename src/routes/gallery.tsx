@@ -8,8 +8,8 @@ import decorDetail from "@/assets/decor-detail.jpg";
 import insta1 from "@/assets/insta-1.jpg";
 import insta3 from "@/assets/insta-3.jpg";
 
-const TITLE = "Wedding Gallery & Portfolio — Decor by Sachin Shrigar";
-const DESC = "A curated portfolio of luxury weddings designed and produced by Decor by Sachin Shrigar across Mangalore, Bangalore, and destination venues.";
+const TITLE = "Wedding Gallery & Portfolio — Decor by Sachin Sherigar";
+const DESC = "A curated portfolio of luxury weddings designed and produced by Decor by Sachin Sherigar across Mangalore, Bangalore, and destination venues.";
 
 const items = [
   { img: weddingHeritage, title: "The Heritage Union", couple: "Ahalya & Vikram", place: "Mangalore", year: "2024", span: "md:col-span-7 md:row-span-2 aspect-[4/5]" },

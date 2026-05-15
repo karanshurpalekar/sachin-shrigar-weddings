@@ -3,8 +3,8 @@ import { useState } from "react";
 import { z } from "zod";
 import { PageHero } from "@/components/site/PageHero";
 
-const TITLE = "Contact & Consultation — Decor by Sachin Shrigar";
-const DESC = "Inquire about luxury wedding planning and decor with Decor by Sachin Shrigar. Ateliers in Mangalore and Bangalore. We respond within 48 hours.";
+const TITLE = "Contact & Consultation — Decor by Sachin Sherigar";
+const DESC = "Inquire about luxury wedding planning and decor with Decor by Sachin Sherigar. Ateliers in Mangalore and Bangalore. We respond within 48 hours.";
 
 export const Route = createFileRoute("/contact")({
   head: () => ({

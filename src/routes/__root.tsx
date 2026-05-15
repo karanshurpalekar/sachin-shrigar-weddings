@@ -55,7 +55,7 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
   );
 }
 
-const SITE_NAME = "Decor by Sachin Shrigar";
+const SITE_NAME = "Decor by Sachin Sherigar";
 const SITE_DESC = "Luxury wedding planning and decor in Mangalore & Bangalore. End-to-end planning, bespoke decor, destination & traditional South Indian weddings.";
 
 export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
@@ -93,7 +93,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           name: SITE_NAME,
           description: SITE_DESC,
           areaServed: ["Mangalore", "Bangalore", "Karnataka", "India"],
-          founder: { "@type": "Person", name: "Sachin Shrigar" },
+          founder: { "@type": "Person", name: "Sachin Sherigar" },
           sameAs: ["https://instagram.com"],
           contactPoint: {
             "@type": "ContactPoint",

@@ -1,7 +1,7 @@
 // SEO + JSON-LD helpers for entity-based schema strategy.
 // Use these from each route's head() to attach the right schema type.
 
-const SITE_NAME = "Decor by Sachin Shrigar";
+const SITE_NAME = "Decor by Sachin Sherigar";
 const SITE_URL = ""; // relative — resolved by crawlers against host
 const PHONE = "+91-98765-43210";
 const EMAIL = "hello@decorbysachinshrigar.com";

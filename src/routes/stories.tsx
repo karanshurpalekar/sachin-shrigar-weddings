@@ -3,9 +3,9 @@ import { PageHero } from "@/components/site/PageHero";
 import { stories } from "@/lib/content";
 import { breadcrumbLd, pageMeta } from "@/lib/seo";
 
-const TITLE = "Wedding Stories — Decor by Sachin Shrigar";
+const TITLE = "Wedding Stories — Decor by Sachin Sherigar";
 const DESC =
-  "In-depth stories from luxury weddings designed by Sachin Shrigar across Mangalore, Bangalore, Udupi, Chikmagalur, Goa and Mysore — venues, palettes and craft notes.";
+  "In-depth stories from luxury weddings designed by Sachin Sherigar across Mangalore, Bangalore, Udupi, Chikmagalur, Goa and Mysore — venues, palettes and craft notes.";
 
 export const Route = createFileRoute("/stories")({
   head: () => ({

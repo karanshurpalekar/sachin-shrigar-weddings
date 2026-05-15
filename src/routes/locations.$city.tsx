@@ -23,7 +23,7 @@ export const Route = createFileRoute("/locations/$city")({
     const url = `/locations/${params.city}`;
     return {
       meta: pageMeta({
-        title: `${l.headline} — Decor by Sachin Shrigar`,
+        title: `${l.headline} — Decor by Sachin Sherigar`,
         description: l.intro,
         url,
         image: l.hero,

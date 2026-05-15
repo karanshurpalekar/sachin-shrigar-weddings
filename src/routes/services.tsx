@@ -34,13 +34,13 @@ export const Route = createFileRoute("/services")({
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "ItemList",
-          name: "Services offered by Decor by Sachin Shrigar",
+          name: "Services offered by Decor by Sachin Sherigar",
           itemListElement: services.map((s, i) => ({
             "@type": "Service",
             position: i + 1,
             name: s.title,
             description: s.body,
-            provider: { "@type": "Organization", name: "Decor by Sachin Shrigar" },
+            provider: { "@type": "Organization", name: "Decor by Sachin Sherigar" },
             areaServed: ["Mangalore", "Bangalore", "Karnataka", "India"],
           })),
         }),

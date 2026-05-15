@@ -12,8 +12,8 @@ import insta2 from "@/assets/insta-2.jpg";
 import insta3 from "@/assets/insta-3.jpg";
 import insta4 from "@/assets/insta-4.jpg";
 
-const TITLE = "Decor by Sachin Shrigar — Luxury Wedding Planning & Decor in Mangalore & Bangalore";
-const DESC = "Decor by Sachin Shrigar is a luxury wedding planning and decor studio based in Mangalore and Bangalore, specializing in end-to-end planning, bespoke decor, destination weddings, and traditional South Indian celebrations.";
+const TITLE = "Decor by Sachin Sherigar — Luxury Wedding Planning & Decor in Mangalore & Bangalore";
+const DESC = "Decor by Sachin Sherigar is a luxury wedding planning and decor studio based in Mangalore and Bangalore, specializing in end-to-end planning, bespoke decor, destination weddings, and traditional South Indian celebrations.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -32,7 +32,7 @@ export const Route = createFileRoute("/")({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
           "@id": "#business",
-          name: "Decor by Sachin Shrigar",
+          name: "Decor by Sachin Sherigar",
           image: heroMandap,
           description: DESC,
           priceRange: "₹₹₹₹",
@@ -127,7 +127,7 @@ function Index() {
               </h2>
               <div className="mt-10 space-y-5 text-base text-ink/70 max-w-2xl text-pretty">
                 <p>
-                  Founded on the principles of South Indian heritage and contemporary restraint, Decor by Sachin Shrigar transforms spaces into emotional landscapes. Every petal, every drape, every flicker of brass-lamp light is choreographed to tell a story that began generations ago.
+                  Founded on the principles of South Indian heritage and contemporary restraint, Decor by Sachin Sherigar transforms spaces into emotional landscapes. Every petal, every drape, every flicker of brass-lamp light is choreographed to tell a story that began generations ago.
                 </p>
                 <p>
                   From the temple courts of Mangalore to the grand ballrooms of Bangalore, we curate experiences for those who seek the profound over the performative.
@@ -211,7 +211,7 @@ function Index() {
       <section className="py-24 md:py-32 bg-ivory">
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-12 gap-12">
           <div className="md:col-span-5">
-            <p className="text-[10px] uppercase tracking-[0.4em] text-gold mb-4">Why Sachin Shrigar</p>
+            <p className="text-[10px] uppercase tracking-[0.4em] text-gold mb-4">Why Sachin Sherigar</p>
             <h2 className="font-serif text-4xl md:text-5xl text-ink leading-[1.1] text-balance">
               The studio is small. The craft is total.
             </h2>
