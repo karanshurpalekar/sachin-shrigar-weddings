@@ -4,6 +4,7 @@ import heroMandap from "@/assets/hero-mandap.jpg";
 import decorDetail from "@/assets/decor-detail.jpg";
 import tablescape from "@/assets/tablescape.jpg";
 import philosophyLamps from "@/assets/philosophy-lamps.jpg";
+import atelierHands from "@/assets/atelier-hands.jpg";
 import weddingHeritage from "@/assets/wedding-heritage.jpg";
 import weddingModern from "@/assets/wedding-modern.jpg";
 import weddingCoastal from "@/assets/wedding-coastal.jpg";
@@ -215,6 +216,16 @@ function Index() {
             <h2 className="font-serif text-4xl md:text-5xl text-ink leading-[1.1] text-balance">
               The studio is small. The craft is total.
             </h2>
+            <figure className="mt-10 aspect-[4/5] max-w-[280px] overflow-hidden bg-beige">
+              <img
+                src={atelierHands}
+                alt="Artisan hands arranging jasmine garlands beside a brass oil lamp — the Sachin Sherigar atelier"
+                width={1024}
+                height={1280}
+                loading="lazy"
+                className="w-full h-full object-cover"
+              />
+            </figure>
           </div>
           <div className="md:col-span-7 grid sm:grid-cols-2 gap-x-10 gap-y-12">
             {[
